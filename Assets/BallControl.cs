@@ -1,0 +1,44 @@
+using UnityEngine;
+
+public class BallControl : MonoBehaviour
+{
+    private Rigidbody2D rb2d;               // Define o corpo rigido 2D que representa a bola
+    public float maxSpeed = 5f;
+    public AudioSource source;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        rb2d = GetComponent<Rigidbody2D>(); // Inicializa o objeto bola
+        source = GetComponent<AudioSource>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (rb2d.linearVelocity.magnitude > maxSpeed)
+        {
+            rb2d.linearVelocity = rb2d.linearVelocity.normalized * maxSpeed;
+        }
+    }
+
+    void OnCollisionEnter2D (Collision2D coll) {
+        if(coll.collider.CompareTag("Player")){
+            Vector2 vel;
+            vel.x = rb2d.linearVelocity.x;
+            vel.y = (rb2d.linearVelocity.y / 2) + (coll.collider.attachedRigidbody.linearVelocity.y / 3);
+            rb2d.linearVelocity = vel;
+        }
+        source.Play();
+    }
+    // Reinicializa a posição e velocidade da bola
+    void ResetBall(){
+        rb2d.linearVelocity = Vector2.zero;
+        transform.position = Vector2.zero;
+    }
+
+    // Reinicializa o jogo
+    void RestartGame(){
+        ResetBall();
+    }
+
+}
