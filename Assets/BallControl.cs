@@ -21,13 +21,18 @@ public class BallControl : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D (Collision2D coll) {
-        if(coll.collider.CompareTag("Player")){
-            Vector2 vel;
-            vel.x = rb2d.linearVelocity.x;
-            vel.y = (rb2d.linearVelocity.y / 2) + (coll.collider.attachedRigidbody.linearVelocity.y / 3);
-            rb2d.linearVelocity = vel;
+    void OnCollisionEnter2D(Collision2D coll)
+{
+    if (coll.collider.CompareTag("Player"))
+        {
+            Rigidbody2D playerRb = coll.collider.attachedRigidbody;
+
+            if (playerRb != null)
+            {
+                rb2d.linearVelocity += playerRb.linearVelocity * 0.5f;
+            }
         }
+
         source.Play();
     }
     // Reinicializa a posição e velocidade da bola
