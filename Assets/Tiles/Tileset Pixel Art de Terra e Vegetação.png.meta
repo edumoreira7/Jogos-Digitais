@@ -1,0 +1,602 @@
+fileFormatVersion: 2
+guid: 320de365833106c42b4e2ee7a59c84c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8384851658739154570
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_0"
+  - first:
+      213: 8762956568764340355
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_1"
+  - first:
+      213: -496909193508863633
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_2"
+  - first:
+      213: 2881659829228920385
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_3"
+  - first:
+      213: 6561439241528474728
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_4"
+  - first:
+      213: -9096503695211431806
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_5"
+  - first:
+      213: 6797714902878610838
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_6"
+  - first:
+      213: -79406312678812381
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_7"
+  - first:
+      213: -7021166842381199722
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_8"
+  - first:
+      213: 4339036438733590460
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_9"
+  - first:
+      213: 5144690135827624312
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_10"
+  - first:
+      213: 4002046369022780432
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_11"
+  - first:
+      213: -7951449206711815975
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_12"
+  - first:
+      213: -3898097342607650154
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_13"
+  - first:
+      213: -5664365759318336539
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_14"
+  - first:
+      213: 2466853197688111301
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_15"
+  - first:
+      213: 3235548485636564682
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_16"
+  - first:
+      213: -8650790272208037134
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_17"
+  - first:
+      213: 5480891881671094873
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_18"
+  - first:
+      213: -4360991879885728282
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_19"
+  - first:
+      213: -3007857533609275198
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_20"
+  - first:
+      213: -2909095485945251757
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_21"
+  - first:
+      213: 1102535282106453683
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_22"
+  - first:
+      213: 4720237536377063758
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_23"
+  - first:
+      213: 8788424330611126109
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_24"
+  - first:
+      213: -2917834204305131387
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_25"
+  - first:
+      213: 2261057149429082128
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_26"
+  - first:
+      213: 5991245962201572821
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_27"
+  - first:
+      213: -7165277795424616311
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_28"
+  - first:
+      213: 8008560639159529936
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_29"
+  - first:
+      213: -2712819458698834014
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_30"
+  - first:
+      213: -9024148276045776846
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_31"
+  - first:
+      213: -6940896189857766567
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_32"
+  - first:
+      213: 2325397781955721011
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_33"
+  - first:
+      213: -9057682794053654758
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_34"
+  - first:
+      213: 8510343685823431597
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_35"
+  - first:
+      213: 7739147686637126891
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_36"
+  - first:
+      213: -3228231086779607764
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_37"
+  - first:
+      213: -4608179184921945300
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_38"
+  - first:
+      213: -3663573925729996237
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_39"
+  - first:
+      213: 6226227384809256806
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_40"
+  - first:
+      213: -8658823957903333784
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_41"
+  - first:
+      213: 4175187488399746716
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_42"
+  - first:
+      213: 364203132511050166
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_43"
+  - first:
+      213: -129290909402159775
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_44"
+  - first:
+      213: -8599658433386755812
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_45"
+  - first:
+      213: 6246144177607631579
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_46"
+  - first:
+      213: 8764587279768940625
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_47"
+  - first:
+      213: 533872302441548207
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_48"
+  - first:
+      213: 7600836638285979780
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_49"
+  - first:
+      213: -8974419881410395167
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_50"
+  - first:
+      213: 6311101631319512837
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_51"
+  - first:
+      213: 6276312438310420411
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_52"
+  - first:
+      213: 6752234619056180594
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_53"
+  - first:
+      213: 6643670100868511651
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_54"
+  - first:
+      213: -268813223269558854
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_55"
+  - first:
+      213: 3731763354426459792
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_56"
+  - first:
+      213: 3096344247253233743
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_57"
+  - first:
+      213: 1874693363050402842
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_58"
+  - first:
+      213: 312325063992505967
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_59"
+  - first:
+      213: 3399420645458144134
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_60"
+  - first:
+      213: 1030184325978258609
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_61"
+  - first:
+      213: -8126300515856839940
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_62"
+  - first:
+      213: 1106579278818779770
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_63"
+  - first:
+      213: 498557069579750076
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_64"
+  - first:
+      213: 3593650059976714403
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_65"
+  - first:
+      213: 7317380057300450784
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_66"
+  - first:
+      213: -4281746569743731847
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_67"
+  - first:
+      213: -3153965357089049612
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_68"
+  - first:
+      213: -4298000335337454066
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_69"
+  - first:
+      213: 1318004020123336040
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_70"
+  - first:
+      213: -2847867744197933792
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_71"
+  - first:
+      213: 409370954255874897
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_72"
+  - first:
+      213: -7671131510483794634
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_73"
+  - first:
+      213: 120549181138375257
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_74"
+  - first:
+      213: 4959736041880479009
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_75"
+  - first:
+      213: 5371544763950823500
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_76"
+  - first:
+      213: 7130567999736382279
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_77"
+  - first:
+      213: 5321717284492273560
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_78"
+  - first:
+      213: -3172983200624292502
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_79"
+  - first:
+      213: -4691906306733641475
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_80"
+  - first:
+      213: 476709098409028626
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_81"
+  - first:
+      213: -184920402540281203
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_82"
+  - first:
+      213: -8170978377305992762
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_83"
+  - first:
+      213: -3589366880286022600
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_84"
+  - first:
+      213: -5071392131374035117
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_85"
+  - first:
+      213: 189794530296913169
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_86"
+  - first:
+      213: 5796458829087460953
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_87"
+  - first:
+      213: 602020053345495677
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_88"
+  - first:
+      213: 6076116986235148353
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_89"
+  - first:
+      213: -7537173713672836429
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_90"
+  - first:
+      213: -1289705895531151284
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_91"
+  - first:
+      213: -4120296257555202387
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_92"
+  - first:
+      213: 6647806871214745945
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_93"
+  - first:
+      213: -6575986268854593371
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_94"
+  - first:
+      213: 6290716808707311734
+    second: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_95"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 132
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_0"
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 774
+        width: 155
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8efd75a82afc5470800000000000000
+      internalID: 8384851658739154570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_1"
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 554
+        width: 155
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388df5732964c9970800000000000000
+      internalID: 8762956568764340355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_2"
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 776
+        width: 155
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e346f9bddc7a08847b836a86b40960da
+      internalID: -496909193508863633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_3"
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 773
+        width: 140
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efae8eca8f4cee7479ca619f751c1027
+      internalID: 2881659829228920385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c2a379f7d25167a4482b522453e44628
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_0": 8384851658739154570
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_1": 8762956568764340355
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_10": 5144690135827624312
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_11": 4002046369022780432
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_12": -7951449206711815975
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_13": -3898097342607650154
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_14": -5664365759318336539
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_15": 2466853197688111301
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_16": 3235548485636564682
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_17": -8650790272208037134
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_18": 5480891881671094873
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_19": -4360991879885728282
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_2": -496909193508863633
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_20": -3007857533609275198
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_21": -2909095485945251757
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_22": 1102535282106453683
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_23": 4720237536377063758
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_24": 8788424330611126109
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_25": -2917834204305131387
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_26": 2261057149429082128
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_27": 5991245962201572821
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_28": -7165277795424616311
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_29": 8008560639159529936
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_3": 2881659829228920385
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_30": -2712819458698834014
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_31": -9024148276045776846
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_32": -6940896189857766567
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_33": 2325397781955721011
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_34": -9057682794053654758
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_35": 8510343685823431597
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_36": 7739147686637126891
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_37": -3228231086779607764
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_38": -4608179184921945300
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_39": -3663573925729996237
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_4": 6561439241528474728
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_40": 6226227384809256806
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_41": -8658823957903333784
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_42": 4175187488399746716
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_43": 364203132511050166
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_44": -129290909402159775
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_45": -8599658433386755812
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_46": 6246144177607631579
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_47": 8764587279768940625
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_48": 533872302441548207
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_49": 7600836638285979780
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_5": -9096503695211431806
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_50": -8974419881410395167
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_51": 6311101631319512837
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_52": 6276312438310420411
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_53": 6752234619056180594
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_54": 6643670100868511651
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_55": -268813223269558854
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_56": 3731763354426459792
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_57": 3096344247253233743
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_58": 1874693363050402842
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_59": 312325063992505967
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_6": 6797714902878610838
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_60": 3399420645458144134
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_61": 1030184325978258609
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_62": -8126300515856839940
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_63": 1106579278818779770
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_64": 498557069579750076
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_65": 3593650059976714403
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_66": 7317380057300450784
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_67": -4281746569743731847
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_68": -3153965357089049612
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_69": -4298000335337454066
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_7": -79406312678812381
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_70": 1318004020123336040
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_71": -2847867744197933792
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_72": 409370954255874897
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_73": -7671131510483794634
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_74": 120549181138375257
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_75": 4959736041880479009
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_76": 5371544763950823500
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_77": 7130567999736382279
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_78": 5321717284492273560
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_79": -3172983200624292502
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_8": -7021166842381199722
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_80": -4691906306733641475
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_81": 476709098409028626
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_82": -184920402540281203
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_83": -8170978377305992762
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_84": -3589366880286022600
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_85": -5071392131374035117
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_86": 189794530296913169
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_87": 5796458829087460953
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_88": 602020053345495677
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_89": 6076116986235148353
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_9": 4339036438733590460
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_90": -7537173713672836429
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_91": -1289705895531151284
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_92": -4120296257555202387
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_93": 6647806871214745945
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_94": -6575986268854593371
+      "Tileset Pixel Art de Terra e Vegeta\xE7\xE3o_95": 6290716808707311734
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

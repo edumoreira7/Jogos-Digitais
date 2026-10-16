@@ -1,0 +1,745 @@
+fileFormatVersion: 2
+guid: 4a45549f18c05d84787eccc0f358c9ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6171543497364882979
+    second: Sprite Sheet do Pato Mago (1)_0
+  - first:
+      213: 2891790382227520895
+    second: Sprite Sheet do Pato Mago (1)_1
+  - first:
+      213: 8833459213345774364
+    second: Sprite Sheet do Pato Mago (1)_2
+  - first:
+      213: 6748568951739149479
+    second: Sprite Sheet do Pato Mago (1)_3
+  - first:
+      213: 7928706015522570744
+    second: Sprite Sheet do Pato Mago (1)_4
+  - first:
+      213: -1345288451870542293
+    second: Sprite Sheet do Pato Mago (1)_5
+  - first:
+      213: 2095795016337956319
+    second: Sprite Sheet do Pato Mago (1)_6
+  - first:
+      213: -8389559366584484496
+    second: Sprite Sheet do Pato Mago (1)_7
+  - first:
+      213: -799835153754064690
+    second: Sprite Sheet do Pato Mago (1)_8
+  - first:
+      213: 8382966546623354407
+    second: Sprite Sheet do Pato Mago (1)_9
+  - first:
+      213: 1298089183311001843
+    second: Sprite Sheet do Pato Mago (1)_10
+  - first:
+      213: -3520811537253962203
+    second: Sprite Sheet do Pato Mago (1)_11
+  - first:
+      213: 2043413213795649595
+    second: Sprite Sheet do Pato Mago (1)_12
+  - first:
+      213: 2066696688601515947
+    second: Sprite Sheet do Pato Mago (1)_13
+  - first:
+      213: 5149519577669555162
+    second: Sprite Sheet do Pato Mago (1)_14
+  - first:
+      213: 3152722578263470718
+    second: Sprite Sheet do Pato Mago (1)_15
+  - first:
+      213: 303311694216600111
+    second: Sprite Sheet do Pato Mago (1)_16
+  - first:
+      213: -914219650482162262
+    second: Sprite Sheet do Pato Mago (1)_17
+  - first:
+      213: 4581336692468411672
+    second: Sprite Sheet do Pato Mago (1)_18
+  - first:
+      213: 6936164541055249187
+    second: Sprite Sheet do Pato Mago (1)_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: andando1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 757
+        width: 204
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3264e44dc1ab5a550800000000000000
+      internalID: 6171543497364882979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 759
+        width: 204
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dff810804b12820800000000000000
+      internalID: 2891790382227520895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando3
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 759
+        width: 207
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b50655a50c69a70800000000000000
+      internalID: 8833459213345774364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando4
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 757
+        width: 206
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac64a6c4bbb7ad50800000000000000
+      internalID: 6748568951739149479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando5
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 757
+        width: 205
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1c9bfec1c680e60800000000000000
+      internalID: 7928706015522570744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correndo3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 521
+        width: 226
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2632d9d743945de0800000000000000
+      internalID: -1345288451870542293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando6
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 759
+        width: 212
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd9bde9672c51d10800000000000000
+      internalID: 2095795016337956319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correndo1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 522
+        width: 218
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d3ea4b43c429b80800000000000000
+      internalID: -8389559366584484496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correndo4
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 517
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec87e955a2a66e4f0800000000000000
+      internalID: -799835153754064690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correndo2
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 522
+        width: 240
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726d777c8a7465470800000000000000
+      internalID: 8382966546623354407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poder2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 271
+        width: 230
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f877021c3db30210800000000000000
+      internalID: 1298089183311001843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poder4
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 271
+        width: 241
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e61e89f80932fc0800000000000000
+      internalID: -3520811537253962203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poder1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 271
+        width: 210
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3801a1dd79ab5c10800000000000000
+      internalID: 2043413213795649595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pulo2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 43
+        width: 236
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7c19e30b16eac10800000000000000
+      internalID: 2066696688601515947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pulo3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 50
+        width: 227
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3d9e6c5c4c67740800000000000000
+      internalID: 5149519577669555162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pulo4
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 34
+        width: 227
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e727fb82b78b0cb20800000000000000
+      internalID: 3152722578263470718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pulo5
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 29
+        width: 229
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a900ef064953400800000000000000
+      internalID: 303311694216600111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pulo1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 24
+        width: 229
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81dea07e27d249f30800000000000000
+      internalID: 4581336692468411672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pulo6
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 24
+        width: 231
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b224596e4324060800000000000000
+      internalID: 6936164541055249187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correndo5
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 517
+        width: 229
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f665a1e69df6c34cad0803ffdd4aea7
+      internalID: 2088959904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: correndo6
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 521
+        width: 215
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b612330a9c995dd4caf6f73cb8496e5f
+      internalID: 1889239249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poder3
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 271
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7cdfa7d6b34964fa21c490e82e3e59
+      internalID: 757161600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poder5
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 266
+        width: 298
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b195eca49481d8f4e9bdc63789914f4d
+      internalID: -2056601448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poder0
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 265
+        width: 214
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7506692ef290d3d48977a74b656e1d65
+      internalID: 1211035178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: acb9e0e0badded04e9e5e3864aeb70fd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":4.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":25.0,"y":30.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Sprite Sheet do Pato Mago (1)_17: -914219650482162262
+      andando1: 6171543497364882979
+      andando2: 2891790382227520895
+      andando3: 8833459213345774364
+      andando4: 6748568951739149479
+      andando5: 7928706015522570744
+      andando6: 2095795016337956319
+      correndo1: -8389559366584484496
+      correndo2: 8382966546623354407
+      correndo3: -1345288451870542293
+      correndo4: -799835153754064690
+      correndo5: 2088959904
+      correndo6: 1889239249
+      poder0: 1211035178
+      poder1: 2043413213795649595
+      poder2: 1298089183311001843
+      poder3: 757161600
+      poder4: -3520811537253962203
+      poder5: -2056601448
+      pulo1: 4581336692468411672
+      pulo2: 2066696688601515947
+      pulo3: 5149519577669555162
+      pulo4: 3152722578263470718
+      pulo5: 303311694216600111
+      pulo6: 6936164541055249187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
