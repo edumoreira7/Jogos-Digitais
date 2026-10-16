@@ -40,6 +40,9 @@ public class PatoController : MonoBehaviour
 
     void Update()
     {
+        if (QuestSession.Atual != null && QuestSession.Atual.Pausado)
+            return;
+
         noChao = Physics2D.OverlapCircle(
             groundCheck.position,
             raioChao,
@@ -49,9 +52,7 @@ public class PatoController : MonoBehaviour
         // Inicia o ataque.
         if (Input.GetKeyDown(KeyCode.J) && !atacando)
         {
-            atacando = true;
-            movimento = 0;
-            TocarAnimacao("Attack");
+            IniciarAtaque();
         }
 
         // Aguarda os Animation Events.
@@ -102,6 +103,15 @@ public class PatoController : MonoBehaviour
             velocidadeX,
             rb.linearVelocity.y
         );
+    }
+
+    public void IniciarAtaque()
+    {
+        if (atacando)
+            return;
+        atacando = true;
+        movimento = 0;
+        TocarAnimacao("Attack");
     }
 
     void TocarAnimacao(string nome)
