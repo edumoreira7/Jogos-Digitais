@@ -120,7 +120,7 @@ public class QuestSession : MonoBehaviour
             GUI.Label(new Rect(280, 90, 720, 75), "ELEMENTAL QUEST", titulo);
             GUI.Label(new Rect(280, 169, 720, 36), "O caminho dos cristais", texto);
             GUI.Label(new Rect(300, 232, 680, 140), "A / D ou setas: andar     |     Shift: correr\nEspaco: pular     |     J: lancar magia\nEsc: pausar", texto);
-            GUI.Label(new Rect(310, 388, 660, 90), "Colete TODOS os cristais de cada fase e entre no portal.\nEvite os slimes e os abismos. Voce tem 3 vidas para as duas fases.", pequeno);
+            GUI.Label(new Rect(310, 388, 660, 90), "Colete TODOS os cristais de cada fase e entre no portal.\nEvite os inimigos e os abismos. Voce tem 3 vidas para as duas fases.", pequeno);
             if (GUI.Button(new Rect(465, 513, 350, 65), "JOGAR  /  ENTER", botao))
                 NovoJogo();
             GUI.Label(new Rect(340, 601, 600, 30), "01  Jardim das Nuvens     /     02  Ruinas Esmeralda", pequeno);

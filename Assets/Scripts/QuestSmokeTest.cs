@@ -57,12 +57,48 @@ public class QuestSmokeTest : MonoBehaviour
         yield return new WaitForSeconds(.45f);
         Exigir(FindObjectsByType<ProjetilPoder>(FindObjectsSortMode.None).Length > 0, "Evento de ataque cria projetil");
         yield return new WaitForSeconds(.2f);
-        QuestEnemy inimigo = FindFirstObjectByType<QuestEnemy>();
+        QuestEnemy inimigo = FindObjectsByType<QuestEnemy>(FindObjectsSortMode.None).First(alvo => alvo.tipo == QuestEnemy.Tipo.Guaxinim);
         int pontosAntes = QuestSession.Pontos;
-        GameObject magia = Instantiate(controle.prefabPoder, inimigo.transform.position, Quaternion.identity);
+        GameObject magia = Instantiate(controle.prefabPoder, inimigo.GetComponent<Collider2D>().bounds.center, Quaternion.identity);
         magia.GetComponent<ProjetilPoder>().Inicializar(Vector2.right, jogador.GetComponent<Collider2D>());
         yield return new WaitForSeconds(.1f);
         Exigir(QuestSession.Pontos == pontosAntes + 50, "Magia derrota inimigo e soma pontos");
+        QuestEnemy guardiao = FindObjectsByType<QuestEnemy>(FindObjectsSortMode.None).First(alvo => alvo.tipo == QuestEnemy.Tipo.Guardiao);
+        int pontosGuardiao = QuestSession.Pontos;
+        GameObject primeiroTiro = Instantiate(controle.prefabPoder, guardiao.GetComponent<Collider2D>().bounds.center, Quaternion.identity);
+        primeiroTiro.GetComponent<ProjetilPoder>().Inicializar(Vector2.right, jogador.GetComponent<Collider2D>());
+        yield return new WaitForSeconds(.1f);
+        Exigir(guardiao.vidas == 1 && QuestSession.Pontos == pontosGuardiao, "Guardiao resiste ao primeiro acerto");
+        yield return new WaitForSeconds(.35f);
+        GameObject segundoTiro = Instantiate(controle.prefabPoder, guardiao.GetComponent<Collider2D>().bounds.center, Quaternion.identity);
+        segundoTiro.GetComponent<ProjetilPoder>().Inicializar(Vector2.right, jogador.GetComponent<Collider2D>());
+        yield return new WaitForSeconds(.1f);
+        Exigir(QuestSession.Pontos == pontosGuardiao + 50, "Guardiao derrotado no segundo acerto");
+        QuestEnemy atirador = FindObjectsByType<QuestEnemy>(FindObjectsSortMode.None).First(alvo => alvo.tipo == QuestEnemy.Tipo.Atirador);
+        controle.enabled = false;
+        corpo.gravityScale = 0;
+        corpo.position = new Vector2(atirador.transform.position.x - 4f, -2.3f);
+        corpo.linearVelocity = Vector2.zero;
+        yield return new WaitForSeconds(.65f);
+        Exigir(FindAnyObjectByType<QuestEnemyShot>() != null, "Atirador dispara projetil animado");
+        Exigir(atirador.GetComponent<SpriteRenderer>().sprite == atirador.atacar.Last(), "Ataque exibe o ultimo quadro da cartela");
+        Camera cameraCenario = Camera.main;
+        cameraCenario.GetComponent<QuestCamera>().enabled = false;
+        cameraCenario.transform.position = new Vector3(29f, .3f, -10f);
+        FindAnyObjectByType<QuestBackground>().SendMessage("LateUpdate");
+        Capturar("Inimigos-e-cenario.png");
+        cameraCenario.GetComponent<QuestCamera>().enabled = true;
+        foreach (QuestEnemyShot tiro in FindObjectsByType<QuestEnemyShot>(FindObjectsSortMode.None))
+            Destroy(tiro.gameObject);
+        SpriteRenderer rampa = FindObjectsByType<SpriteRenderer>(FindObjectsSortMode.None).First(alvo => alvo.sprite != null && alvo.sprite.name == "Cenario_02");
+        Bounds limitesRampa = rampa.GetComponent<Collider2D>().bounds;
+        corpo.gravityScale = 3f;
+        corpo.position = new Vector2(limitesRampa.center.x, limitesRampa.max.y + 2f);
+        corpo.linearVelocity = Vector2.zero;
+        controle.enabled = true;
+        yield return new WaitForSeconds(1f);
+        float peDoPato = jogador.GetComponent<Collider2D>().bounds.min.y;
+        Exigir(peDoPato >= limitesRampa.min.y - .1f && peDoPato <= limitesRampa.max.y + .2f, "Colisao fisica sobre rampa recortada");
         for (int numero = 1; numero <= 2; numero++)
         {
             if (numero == 2)

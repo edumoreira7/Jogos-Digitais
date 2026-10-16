@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -11,7 +12,8 @@ public static class QuestBuilder
     private const string Raiz = "Assets/ElementalQuest";
     private static Sprite grama;
     private static Sprite terra;
-    private static Sprite[] slimes;
+    private static Dictionary<string, Sprite> recortes;
+    private static GameObject disparoInimigo;
     private static Sprite[] cristais;
     private static Sprite[] portais;
     private static GameObject patoPrefab;
@@ -31,10 +33,10 @@ public static class QuestBuilder
         }
         material.shader = Shader.Find("Universal Render Pipeline/2D/Sprite-Unlit-Default");
         EditorUtility.SetDirty(material);
-        Sprite[] tiles = AssetDatabase.LoadAllAssetsAtPath("Assets/Tiles/Tileset Pixel Art de Terra e Vegetação.png").OfType<Sprite>().ToArray();
-        grama = tiles.First(tile => tile.name.EndsWith("_0"));
-        terra = tiles.First(tile => tile.name.EndsWith("_1"));
-        slimes = Arte("Slime", 24, 18, 4, 24f);
+        recortes = QuestSlicer.Criar();
+        grama = Peca(0);
+        terra = Peca(9);
+        CriarDisparoInimigo();
         cristais = Arte("Cristal", 16, 20, 6, 24f);
         portais = Arte("Portal", 32, 48, 6, 24f);
 
@@ -139,6 +141,14 @@ public static class QuestBuilder
         raiz.layer = 3;
         raiz.transform.position = new Vector3(inicio, topo, 0);
         int profundidade = suspensa ? 1 : 4;
+        if (suspensa)
+        {
+            int variante = Mathf.RoundToInt(inicio) % 2;
+            TileFisico(variante == 0 ? 16 : 15, new Vector2(inicio + .5f, topo - .5f), 1f, 1f, raiz.transform, noite);
+            TileFisico(17, new Vector2(inicio + 2f, topo - .5f), 2f, 1f, raiz.transform, noite);
+            TileFisico(variante == 0 ? 21 : 18, new Vector2(inicio + 3.5f, topo - .5f), 1f, 1f, raiz.transform, noite);
+            return;
+        }
         BoxCollider2D colisor = raiz.AddComponent<BoxCollider2D>();
         colisor.size = new Vector2(tamanho, profundidade);
         colisor.offset = new Vector2(tamanho / 2f, -profundidade / 2f);
@@ -146,7 +156,8 @@ public static class QuestBuilder
         {
             for (int linha = 0; linha < profundidade; linha++)
             {
-                SpriteRenderer tile = Visual("Tile " + coluna + "," + linha, linha == 0 ? grama : terra,
+                int indice = linha == 0 ? new[] { 0, 1, 3, 4 }[coluna % 4] : coluna == 0 ? 8 : coluna == tamanho - 1 ? 10 : 9;
+                SpriteRenderer tile = Visual("Tile " + indice.ToString("00") + " - " + coluna + "," + linha, Peca(indice),
                     new Vector2(inicio + coluna + .5f, topo - linha - .5f), 0);
                 tile.transform.SetParent(raiz.transform);
                 tile.transform.localScale = new Vector3(1f / tile.sprite.bounds.size.x, 1f / tile.sprite.bounds.size.y, 1f);
@@ -154,6 +165,66 @@ public static class QuestBuilder
                     tile.color = new Color(.75f, .85f, .83f);
             }
         }
+    }
+
+    private static Sprite Peca(int indice)
+    {
+        return recortes["Cenario_" + indice.ToString("00")];
+    }
+
+    private static Sprite[] Quadros(string nome, string acao)
+    {
+        return recortes.Where(par => par.Key.StartsWith(nome + "_" + acao + "_")).OrderBy(par => par.Key).Select(par => par.Value).ToArray();
+    }
+
+    private static void TileFisico(int indice, Vector2 centro, float largura, float altura, Transform pai, bool noite)
+    {
+        SpriteRenderer visual = Visual("Terreno recortado " + indice.ToString("00"), Peca(indice), centro, 0);
+        visual.transform.SetParent(pai);
+        visual.transform.localScale = new Vector3(largura / visual.sprite.bounds.size.x, altura / visual.sprite.bounds.size.y, 1f);
+        visual.gameObject.layer = 3;
+        if (noite)
+            visual.color = new Color(.75f, .85f, .83f);
+        PolygonCollider2D colisor = visual.gameObject.AddComponent<PolygonCollider2D>();
+        colisor.SetPath(0, QuestSlicer.Contorno(visual.sprite));
+    }
+
+    private static void EnriquecerCenario(int numero)
+    {
+        Transform raiz = new GameObject("Rampas, ilhas curvas e vegetacao - 30 pecas").transform;
+        int[] indices = { 2, 5, 6, 7, 11, 12, 13, 14, 19, 20 };
+        float[] posicoes = numero == 1 ? new[] { 9f, 27f, 46f, 35f, 53f } : new[] { 7f, 23f, 38f, 44f, 57f };
+        for (int indice = 0; indice < indices.Length; indice++)
+            TileFisico(indices[indice], new Vector2(posicoes[indice / 2] + (indice % 2) * 1.5f, -.7f), 1.5f, 1f, raiz, numero == 2);
+        float[] vegetacao = { -7f, -3f, 2f, 7f, 18f, 27f, 38f, 49f };
+        float[] alturas = { .4f, .5f, .5f, .6f, .6f, .5f, .9f, .4f };
+        for (int indice = 0; indice < vegetacao.Length; indice++)
+        {
+            Sprite sprite = Peca(indice + 22);
+            SpriteRenderer visual = Visual("Decoracao " + sprite.name, sprite, new Vector2(vegetacao[indice], -3f + alturas[indice] / 2f), 1);
+            visual.transform.SetParent(raiz);
+            visual.transform.localScale = Vector3.one * (alturas[indice] / sprite.bounds.size.y);
+            if (numero == 2)
+                visual.color = new Color(.75f, .85f, .83f);
+        }
+    }
+
+    private static void CriarDisparoInimigo()
+    {
+        Sprite[] quadros = Quadros("Atirador", "Projetil");
+        SpriteRenderer visual = Visual("Semente magica inimiga", quadros[0], Vector2.zero, 7);
+        visual.transform.localScale = Vector3.one * .6f;
+        QuestAnimation animacao = visual.gameObject.AddComponent<QuestAnimation>();
+        animacao.quadros = quadros;
+        Rigidbody2D corpo = visual.gameObject.AddComponent<Rigidbody2D>();
+        corpo.gravityScale = 0f;
+        corpo.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        CircleCollider2D colisor = visual.gameObject.AddComponent<CircleCollider2D>();
+        colisor.radius = .2f;
+        colisor.isTrigger = true;
+        visual.gameObject.AddComponent<QuestEnemyShot>();
+        disparoInimigo = PrefabUtility.SaveAsPrefabAsset(visual.gameObject, Raiz + "/Prefabs/SementeInimiga.prefab");
+        UnityEngine.Object.DestroyImmediate(visual.gameObject);
     }
 
     private static void Cristal(float posicaoX, float posicaoY)
@@ -167,25 +238,33 @@ public static class QuestBuilder
         colisor.isTrigger = true;
     }
 
-    private static void Inimigo(float esquerda, float direita, float topo, bool forte)
+    private static void Inimigo(float esquerda, float direita, float topo, QuestEnemy.Tipo tipo)
     {
-        SpriteRenderer visual = Visual(forte ? "Slime violeta" : "Slime esmeralda", slimes[0], new Vector2((esquerda + direita) / 2f, topo + .35f), 6);
-        if (forte)
-            visual.color = new Color(.95f, .55f, 1f);
-        QuestAnimation animacao = visual.gameObject.AddComponent<QuestAnimation>();
-        animacao.quadros = slimes;
-        animacao.velocidade = forte ? 10f : 7f;
+        string nome = tipo.ToString();
+        Sprite[] andar = Quadros(nome, "Andar");
+        SpriteRenderer visual = Visual(nome, andar[0], new Vector2((esquerda + direita) / 2f, topo + .02f), 6);
+        float escala = tipo == QuestEnemy.Tipo.Guardiao ? 1.5f : 1f;
+        visual.transform.localScale = Vector3.one * escala;
         Rigidbody2D corpo = visual.gameObject.AddComponent<Rigidbody2D>();
         corpo.bodyType = RigidbodyType2D.Kinematic;
         corpo.useFullKinematicContacts = true;
         corpo.interpolation = RigidbodyInterpolation2D.Interpolate;
         BoxCollider2D colisor = visual.gameObject.AddComponent<BoxCollider2D>();
-        colisor.size = new Vector2(.8f, .58f);
+        colisor.size = new Vector2(.7f, .8f);
+        colisor.offset = new Vector2(.05f, .45f);
         colisor.isTrigger = true;
         QuestEnemy inimigo = visual.gameObject.AddComponent<QuestEnemy>();
         inimigo.limiteEsquerdo = esquerda;
         inimigo.limiteDireito = direita;
-        inimigo.velocidade = forte ? 2f : 1.25f;
+        inimigo.tipo = tipo;
+        inimigo.vidas = tipo == QuestEnemy.Tipo.Guardiao ? 2 : 1;
+        inimigo.velocidade = tipo == QuestEnemy.Tipo.Guardiao ? .85f : tipo == QuestEnemy.Tipo.Atirador ? .5f : 1.4f;
+        inimigo.andar = andar;
+        inimigo.parado = Quadros(nome, "Parado");
+        inimigo.atacar = Quadros(nome, "Ataque");
+        inimigo.dano = Quadros(nome, "Dano");
+        inimigo.morte = Quadros(nome, "Morte");
+        inimigo.prefabDisparo = disparoInimigo;
     }
 
     private static void Portal(float posicaoX)
@@ -241,12 +320,12 @@ public static class QuestBuilder
                 Cristal(posicaoX, -2.15f);
             foreach (float posicaoX in new[] { 4f, 6f, 23f, 25f, 41f, 43f })
                 Cristal(posicaoX, -.95f);
-            Inimigo(8f, 12f, -3f, false);
-            Inimigo(27f, 31f, -3f, false);
-            Inimigo(45f, 49f, -3f, false);
+            Inimigo(8f, 12f, -3f, QuestEnemy.Tipo.Guaxinim);
+            Inimigo(27f, 31f, -3f, QuestEnemy.Tipo.Atirador);
+            Inimigo(45f, 49f, -3f, QuestEnemy.Tipo.Guardiao);
             Portal(55f);
             Placa("CRISTAIS NAS PLATAFORMAS\nEspaco para pular", new Vector2(4.5f, .2f));
-            Placa("J: MAGIA\nCuidado com os slimes", new Vector2(11f, .2f));
+            Placa("J: MAGIA\nCuidado com os inimigos", new Vector2(11f, 1.3f));
         }
         else
         {
@@ -262,13 +341,14 @@ public static class QuestBuilder
                 Cristal(posicaoX, -2.15f);
             foreach (float posicaoX in new[] { 2f, 4f, 18f, 20f, 33f, 35f, 51f, 53f })
                 Cristal(posicaoX, -.95f);
-            Inimigo(6f, 10f, -3f, true);
-            Inimigo(22f, 25f, -3f, false);
-            Inimigo(37f, 42f, -3f, true);
-            Inimigo(55f, 60f, -3f, true);
+            Inimigo(6f, 10f, -3f, QuestEnemy.Tipo.Guaxinim);
+            Inimigo(22f, 25f, -3f, QuestEnemy.Tipo.Atirador);
+            Inimigo(37f, 42f, -3f, QuestEnemy.Tipo.Guardiao);
+            Inimigo(55f, 60f, -3f, QuestEnemy.Tipo.Atirador);
             Portal(63f);
             Placa("RUINAS ESMERALDA\nRecupere os ultimos cristais", new Vector2(-1f, .4f));
         }
+        EnriquecerCenario(numero);
         sessao.totalItens = UnityEngine.Object.FindObjectsByType<QuestCrystal>(FindObjectsSortMode.None).Length;
         PhysicsMaterial2D semAtrito = AssetDatabase.LoadAssetAtPath<PhysicsMaterial2D>(Raiz + "/Prefabs/SemAtrito.physicsMaterial2D");
         if (semAtrito == null)
@@ -379,6 +459,16 @@ public static class QuestBuilder
                     throw new InvalidOperationException("Jogador incompleto.");
                 if (UnityEngine.Object.FindFirstObjectByType<QuestPortal>() == null)
                     throw new InvalidOperationException("Portal ausente.");
+                int pecasPresentes = UnityEngine.Object.FindObjectsByType<SpriteRenderer>(FindObjectsSortMode.None)
+                    .Where(visual => visual.sprite != null && visual.sprite.name.StartsWith("Cenario_"))
+                    .Select(visual => visual.sprite.name).Distinct().Count();
+                if (pecasPresentes != 30)
+                    throw new InvalidOperationException("A fase nao utiliza as 30 pecas: " + pecasPresentes);
+                QuestEnemy[] inimigos = UnityEngine.Object.FindObjectsByType<QuestEnemy>(FindObjectsSortMode.None);
+                if (inimigos.Select(inimigo => inimigo.tipo).Distinct().Count() != 3)
+                    throw new InvalidOperationException("Falta um dos tres tipos de inimigos.");
+                if (inimigos.Any(inimigo => inimigo.andar.Length != 6 || inimigo.atacar.Length < 4 || inimigo.morte.Length != 2))
+                    throw new InvalidOperationException("Animacao de inimigo incompleta.");
             }
         }
         Debug.Log("QUEST_VALIDATION_OK");

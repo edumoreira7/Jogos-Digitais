@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: f3401b4e53f7913499f148516980d0c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1516180719837358915
+    second: Atirador_0
+  - first:
+      213: -7937414949686558487
+    second: Atirador_1
+  - first:
+      213: -581008716324161790
+    second: Atirador_2
+  - first:
+      213: 5293413290293258527
+    second: Atirador_3
+  - first:
+      213: 1729059109872499833
+    second: Atirador_4
+  - first:
+      213: -1948040940596048867
+    second: Atirador_5
+  - first:
+      213: -2042189346704157567
+    second: Atirador_6
+  - first:
+      213: -8035217479265593955
+    second: Atirador_7
+  - first:
+      213: 3814931763859604455
+    second: Atirador_8
+  - first:
+      213: -5180468069254691944
+    second: Atirador_9
+  - first:
+      213: -2685369173961502423
+    second: Atirador_10
+  - first:
+      213: -7417186408986732594
+    second: Atirador_11
+  - first:
+      213: -7941470240651511218
+    second: Atirador_12
+  - first:
+      213: 5281292677732406112
+    second: Atirador_13
+  - first:
+      213: 4538881426084563707
+    second: Atirador_14
+  - first:
+      213: -7159834086295368668
+    second: Atirador_15
+  - first:
+      213: -1085926411224939838
+    second: Atirador_16
+  - first:
+      213: -1051403383866486386
+    second: Atirador_17
+  - first:
+      213: 5502568980683912341
+    second: Atirador_18
+  - first:
+      213: 6425219197778914995
+    second: Atirador_19
+  - first:
+      213: 7357614100108914351
+    second: Atirador_20
+  - first:
+      213: 4170776103975741659
+    second: Atirador_21
+  - first:
+      213: 3656872909121208159
+    second: Atirador_22
+  - first:
+      213: -6664607304291329279
+    second: Atirador_23
+  - first:
+      213: 4491909213490711547
+    second: Atirador_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 230
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atirador_Parado_00
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 756
+        width: 237
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc98865218b26fd48832c25b8dc9d506
+      internalID: -264911323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Parado_01
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 756
+        width: 241
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c4967e96dd71944b50d91bccb2337f
+      internalID: -1090604898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Parado_02
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 756
+        width: 228
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8b57b6128aba0429f9f65f4d9cba05
+      internalID: 1305852427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Parado_03
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 756
+        width: 230
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb50d9333a7afd4db7a5cf239d83561
+      internalID: -344773698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Andar_00
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 509
+        width: 231
+        height: 216
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37f939ed12b05e44a6d64a3be80f736
+      internalID: -748302288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Andar_01
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 509
+        width: 233
+        height: 213
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bedc3d885f640643aa476a60f3e81fd
+      internalID: -996394697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Andar_02
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 509
+        width: 224
+        height: 212
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148d16cc2695e3e4aac8e1928f0c84a5
+      internalID: -1454169267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Andar_03
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 509
+        width: 216
+        height: 213
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da989dd03dd2ceb48a19fce6d51b4498
+      internalID: 1198427503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Andar_04
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 509
+        width: 213
+        height: 216
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7d2bb4dafe7a54dada6c36399ba70f
+      internalID: -2111756466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Andar_05
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 509
+        width: 218
+        height: 216
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7459951ee21d5a340b13abbfbf1d02e9
+      internalID: -1788060426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Ataque_00
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 250
+        width: 243
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7430e0cb9c5c5f4f909027ebf866b17
+      internalID: 105854709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Ataque_01
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 250
+        width: 254
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a852a3a3bff7a3d46838d65b786559de
+      internalID: 1544832832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Ataque_02
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 250
+        width: 218
+        height: 213
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b6b4d2766ffd54c94328b93c2aa871
+      internalID: -1550758708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Ataque_03
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 249
+        width: 330
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d426597bc4f51e4086052b736bfbcf1
+      internalID: -1993104449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Dano_00
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 27
+        width: 221
+        height: 191
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ade382409e41d46a9bea287d52587f
+      internalID: -425040771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Dano_01
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 27
+        width: 226
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19cc19c0747c0f49a790c9e47f2e1b6
+      internalID: 2047810338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Morte_00
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 28
+        width: 304
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450ab7b993240e242bb78b0ea4f499b3
+      internalID: 1952872613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Morte_01
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 37
+        width: 273
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0418846fdeea640bc8d8473d8c6d63
+      internalID: 908560896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Projetil_00
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 334
+        width: 50
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b700e466b5c5842955b2f709af7e5c
+      internalID: 1218161887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Projetil_01
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 319
+        width: 118
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5217c674a68b847b3f0d275bdc2103
+      internalID: 2009137918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atirador_Projetil_02
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 317
+        width: 143
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ebe49f98666ba469483142689a8888
+      internalID: -1950445452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5c77a30bc9deccf4cbfda162af1c0fa5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Atirador_Andar_00: -748302288
+      Atirador_Andar_01: -996394697
+      Atirador_Andar_02: -1454169267
+      Atirador_Andar_03: 1198427503
+      Atirador_Andar_04: -2111756466
+      Atirador_Andar_05: -1788060426
+      Atirador_Ataque_00: 105854709
+      Atirador_Ataque_01: 1544832832
+      Atirador_Ataque_02: -1550758708
+      Atirador_Ataque_03: -1993104449
+      Atirador_Dano_00: -425040771
+      Atirador_Dano_01: 2047810338
+      Atirador_Morte_00: 1952872613
+      Atirador_Morte_01: 908560896
+      Atirador_Parado_00: -264911323
+      Atirador_Parado_01: -1090604898
+      Atirador_Parado_02: 1305852427
+      Atirador_Parado_03: -344773698
+      Atirador_Projetil_00: 1218161887
+      Atirador_Projetil_01: 2009137918
+      Atirador_Projetil_02: -1950445452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

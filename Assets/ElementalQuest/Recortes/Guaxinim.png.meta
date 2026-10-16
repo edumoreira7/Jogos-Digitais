@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: e8459c7ea5ae3764cb5adebb90f8867b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5337748393285767186
+    second: Guaxinim_0
+  - first:
+      213: 3319584356639919705
+    second: Guaxinim_1
+  - first:
+      213: -6015315641943686340
+    second: Guaxinim_2
+  - first:
+      213: 1318312256615219783
+    second: Guaxinim_3
+  - first:
+      213: -5460568176157831895
+    second: Guaxinim_4
+  - first:
+      213: 5446156236177778853
+    second: Guaxinim_5
+  - first:
+      213: -2484943880392406458
+    second: Guaxinim_6
+  - first:
+      213: -1142540259158967915
+    second: Guaxinim_7
+  - first:
+      213: 1464066346522455849
+    second: Guaxinim_8
+  - first:
+      213: 3812324450763783661
+    second: Guaxinim_9
+  - first:
+      213: -1413054084429383099
+    second: Guaxinim_10
+  - first:
+      213: -8216448631291801877
+    second: Guaxinim_11
+  - first:
+      213: -5642171546198315122
+    second: Guaxinim_12
+  - first:
+      213: -7955628755510913251
+    second: Guaxinim_13
+  - first:
+      213: -5471574535341841764
+    second: Guaxinim_14
+  - first:
+      213: -865144227945919913
+    second: Guaxinim_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 230
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guaxinim_Parado_00
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 767
+        width: 280
+        height: 189
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e587ce9a4829d8a428376631dc36d4a4
+      internalID: -2126999755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Parado_01
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 767
+        width: 259
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d190e0a1597e6af459e75798b5044952
+      internalID: -1272940530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Parado_02
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 767
+        width: 245
+        height: 189
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ba6d4b0f704794089facd188c279b7
+      internalID: -1293637776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Parado_03
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 767
+        width: 251
+        height: 189
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20466559cfefeb44a71f700dd7efc08
+      internalID: -268104298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Andar_00
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 523
+        width: 268
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41de5c9673905d84cbe1010309bb75ee
+      internalID: -210356033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Andar_01
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 526
+        width: 264
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5ba7e963ba6724b82d0195159922d0
+      internalID: -1819078827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Andar_02
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 523
+        width: 233
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24c4e6df15ee3a4c979abf1bbc4095c
+      internalID: -1934431570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Andar_03
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 519
+        width: 245
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4926c3cecd2f4d54c86efdc854e2c374
+      internalID: 378432289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Andar_04
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 519
+        width: 212
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c78463e3a3ae94fb6c52fe1ef8c5cd
+      internalID: 646361458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Andar_05
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 519
+        width: 229
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b5ac60c1c05a743bda2b71a6b168d4
+      internalID: -77658078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Ataque_00
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 284
+        width: 277
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfeab6c6d013ca4cab77ccdfa4f5b6b
+      internalID: -457080529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Ataque_01
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 281
+        width: 323
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda5c9bbdf16cab4c93242709bca9d91
+      internalID: -1131722089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Ataque_02
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 281
+        width: 312
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50234ce32539924996c0697c88ebe31
+      internalID: 964546328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Ataque_03
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 281
+        width: 289
+        height: 189
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58e25973fc3e8b4dbb43ba91183da6c
+      internalID: -1287508217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Dano_00
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 50
+        width: 250
+        height: 189
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4663da29c16c01d4f903fed68f1465e7
+      internalID: -2020170765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Dano_01
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 49
+        width: 265
+        height: 166
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db353ad8c1d80a4fa10da48bb4f8424
+      internalID: -572610864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Morte_00
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 48
+        width: 322
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b46d9c0edd5f54689534f2c9540167
+      internalID: 721561641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guaxinim_Morte_01
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 49
+        width: 334
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bda1930cbbb664e976ca9bc9021d4c
+      internalID: 1819615666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 067553592b3a9cb4eac0d69b238968c4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Guaxinim_Andar_00: -210356033
+      Guaxinim_Andar_01: -1819078827
+      Guaxinim_Andar_02: -1934431570
+      Guaxinim_Andar_03: 378432289
+      Guaxinim_Andar_04: 646361458
+      Guaxinim_Andar_05: -77658078
+      Guaxinim_Ataque_00: -457080529
+      Guaxinim_Ataque_01: -1131722089
+      Guaxinim_Ataque_02: 964546328
+      Guaxinim_Ataque_03: -1287508217
+      Guaxinim_Dano_00: -2020170765
+      Guaxinim_Dano_01: -572610864
+      Guaxinim_Morte_00: 721561641
+      Guaxinim_Morte_01: 1819615666
+      Guaxinim_Parado_00: -2126999755
+      Guaxinim_Parado_01: -1272940530
+      Guaxinim_Parado_02: -1293637776
+      Guaxinim_Parado_03: -268104298
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

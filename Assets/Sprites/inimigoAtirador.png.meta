@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: ad5264e4dab5f7c4f83fdcaa8b97e02d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3977268172356855268
+    second: inimigoAtirador_0
+  - first:
+      213: -8909183853083861309
+    second: inimigoAtirador_1
+  - first:
+      213: 7206599723062952975
+    second: inimigoAtirador_2
+  - first:
+      213: 8569114072982732830
+    second: inimigoAtirador_3
+  - first:
+      213: -3170483865255733036
+    second: inimigoAtirador_4
+  - first:
+      213: -1325562330581428862
+    second: inimigoAtirador_5
+  - first:
+      213: -2326662686393341055
+    second: inimigoAtirador_6
+  - first:
+      213: 2759584933137740937
+    second: inimigoAtirador_7
+  - first:
+      213: 1548545867693702587
+    second: inimigoAtirador_8
+  - first:
+      213: 1587860898763274854
+    second: inimigoAtirador_9
+  - first:
+      213: -6547872283411315381
+    second: inimigoAtirador_10
+  - first:
+      213: 1617930634445200661
+    second: inimigoAtirador_11
+  - first:
+      213: -4608241511421118324
+    second: inimigoAtirador_12
+  - first:
+      213: 2673267014068707685
+    second: inimigoAtirador_13
+  - first:
+      213: 5564915734114454911
+    second: inimigoAtirador_14
+  - first:
+      213: 7007688497193749283
+    second: inimigoAtirador_15
+  - first:
+      213: -4937737108048979145
+    second: inimigoAtirador_16
+  - first:
+      213: 1747205127782751795
+    second: inimigoAtirador_17
+  - first:
+      213: -324836685070537063
+    second: inimigoAtirador_18
+  - first:
+      213: -9194802221439800893
+    second: inimigoAtirador_19
+  - first:
+      213: 2466413160863085213
+    second: inimigoAtirador_20
+  - first:
+      213: 6113925024767140427
+    second: inimigoAtirador_21
+  - first:
+      213: -4488961157343963139
+    second: inimigoAtirador_22
+  - first:
+      213: 4731529046675226893
+    second: inimigoAtirador_23
+  - first:
+      213: 1790660177646604750
+    second: inimigoAtirador_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inimigoAtirador_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 737
+        width: 349
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e52ccd8458123730800000000000000
+      internalID: 3977268172356855268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 744
+        width: 263
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce5a4e0d783c5480800000000000000
+      internalID: -8909183853083861309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 735
+        width: 257
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f048893144cf20460800000000000000
+      internalID: 7206599723062952975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_3
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 981
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10cfe729db9be670800000000000000
+      internalID: 8569114072982732830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_4
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 749
+        width: 247
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d81355f8bd2004d0800000000000000
+      internalID: -3170483865255733036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_5
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 741
+        width: 177
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2851e0e5518aa9de0800000000000000
+      internalID: -1325562330581428862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_6
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 497
+        width: 253
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b6e592d9806bfd0800000000000000
+      internalID: -2326662686393341055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_7
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 815
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984f13330e30c4620800000000000000
+      internalID: 2759584933137740937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_8
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 803
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd384a134a8d7510800000000000000
+      internalID: 1548545867693702587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_9
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 775
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a74871317390610800000000000000
+      internalID: 1587860898763274854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_10
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 785
+        width: 117
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4584a0b9d84125a0800000000000000
+      internalID: -6547872283411315381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_11
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 855
+        width: 17
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d1451075b047610800000000000000
+      internalID: 1617930634445200661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_12
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 854
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88f888c2cc3c00c0800000000000000
+      internalID: -4608241511421118324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_13
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 769
+        width: 31
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561a55b8f2a591520800000000000000
+      internalID: 2673267014068707685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_14
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 499
+        width: 260
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dcfd0406d8a3d40800000000000000
+      internalID: 5564915734114454911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 493
+        width: 258
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b03d35f8f404160800000000000000
+      internalID: 7007688497193749283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_16
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 493
+        width: 501
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bd970f242a97bb0800000000000000
+      internalID: -4937737108048979145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_17
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 497
+        width: 263
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e5b3f7ec15f3810800000000000000
+      internalID: 1747205127782751795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 1536
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99eea5881c2fd7bf0800000000000000
+      internalID: -324836685070537063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 14
+        width: 263
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9ab138810856080800000000000000
+      internalID: -9194802221439800893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_20
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 262
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92b792c3b57a3220800000000000000
+      internalID: 2466413160863085213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_21
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 15
+        width: 332
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42ed94ca6609d450800000000000000
+      internalID: 6113925024767140427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_22
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 29
+        width: 323
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df79cf56c9104b1c0800000000000000
+      internalID: -4488961157343963139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_23
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 169
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0105876994c9a140800000000000000
+      internalID: 4731529046675226893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoAtirador_24
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 225
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1501ab1f3b9d810800000000000000
+      internalID: 1790660177646604750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inimigoAtirador_0: 3977268172356855268
+      inimigoAtirador_1: -8909183853083861309
+      inimigoAtirador_10: -6547872283411315381
+      inimigoAtirador_11: 1617930634445200661
+      inimigoAtirador_12: -4608241511421118324
+      inimigoAtirador_13: 2673267014068707685
+      inimigoAtirador_14: 5564915734114454911
+      inimigoAtirador_15: 7007688497193749283
+      inimigoAtirador_16: -4937737108048979145
+      inimigoAtirador_17: 1747205127782751795
+      inimigoAtirador_18: -324836685070537063
+      inimigoAtirador_19: -9194802221439800893
+      inimigoAtirador_2: 7206599723062952975
+      inimigoAtirador_20: 2466413160863085213
+      inimigoAtirador_21: 6113925024767140427
+      inimigoAtirador_22: -4488961157343963139
+      inimigoAtirador_23: 4731529046675226893
+      inimigoAtirador_24: 1790660177646604750
+      inimigoAtirador_3: 8569114072982732830
+      inimigoAtirador_4: -3170483865255733036
+      inimigoAtirador_5: -1325562330581428862
+      inimigoAtirador_6: -2326662686393341055
+      inimigoAtirador_7: 2759584933137740937
+      inimigoAtirador_8: 1548545867693702587
+      inimigoAtirador_9: 1587860898763274854
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

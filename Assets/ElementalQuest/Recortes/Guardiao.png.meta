@@ -1,0 +1,609 @@
+fileFormatVersion: 2
+guid: b068bc6985ece904e9e9cf4d81f37585
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5043111382411302181
+    second: Guardiao_0
+  - first:
+      213: 5745974128683996632
+    second: Guardiao_1
+  - first:
+      213: 3845269823078890645
+    second: Guardiao_2
+  - first:
+      213: 5945732561188991382
+    second: Guardiao_3
+  - first:
+      213: 4103438952250670144
+    second: Guardiao_4
+  - first:
+      213: 4382441594720900494
+    second: Guardiao_5
+  - first:
+      213: -8802389530108521035
+    second: Guardiao_6
+  - first:
+      213: -5045450303629215833
+    second: Guardiao_7
+  - first:
+      213: 8627097577901997141
+    second: Guardiao_8
+  - first:
+      213: -1675123605060755266
+    second: Guardiao_9
+  - first:
+      213: 1864174549845512237
+    second: Guardiao_10
+  - first:
+      213: 1581464366317663298
+    second: Guardiao_11
+  - first:
+      213: -1703766379978711121
+    second: Guardiao_12
+  - first:
+      213: 285536831947973508
+    second: Guardiao_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 230
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guardiao_Parado_00
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 762
+        width: 262
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9262f47f423cbde4697a09d50e25eab0
+      internalID: 933789071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Parado_01
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 762
+        width: 270
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a0f58a9e9073c419a3cdd1c1895a37
+      internalID: 258690841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Parado_02
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 762
+        width: 260
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25e3bd2bd5c80a44b5a184bf6a6070b
+      internalID: 1440583830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Parado_03
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 762
+        width: 258
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dfd4c77a3454e49bd89331638b97a5
+      internalID: 1068905767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Andar_00
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 520
+        width: 256
+        height: 216
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b50126e3cffab4b862c682939dbce2
+      internalID: 904614172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Andar_01
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 518
+        width: 217
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2275afd06cda6c46ae27befa95a4012
+      internalID: 1135762518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Andar_02
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 518
+        width: 227
+        height: 217
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435f9f42c983bba469cc40e6ab79d884
+      internalID: -1563995060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Andar_03
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 518
+        width: 207
+        height: 214
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e446ca757e3b45747b3af9e7af1b6531
+      internalID: -1518227176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Andar_04
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 516
+        width: 215
+        height: 213
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1060e65ceeb216c409bb86831db72d61
+      internalID: 1420114554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Andar_05
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 516
+        width: 211
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a2e1000bac0134bb46878a89e84f51
+      internalID: -939126106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Ataque_00
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 258
+        width: 253
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63b7741335847e47b8ea5733c66478e
+      internalID: 137466818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Ataque_01
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 256
+        width: 236
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabd5d8542ff7be418ea9c05a6b1fb8e
+      internalID: -563496983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Ataque_02
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 254
+        width: 265
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a1c7468f5eecf4a93626af5df4802e
+      internalID: 547080287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Ataque_03
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 242
+        width: 307
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7dc63ad25ffbb4cb002a19d6d92ad4
+      internalID: 77784151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Ataque_04
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 255
+        width: 319
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c7bdb74eecc4e41ad893e551b76944
+      internalID: 1390422927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Dano_00
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 21
+        width: 284
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa772fa98df38ae4199ebde20f33b4d3
+      internalID: 9906790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Dano_01
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 30
+        width: 201
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6c60980d522bf43865f5cd40957106
+      internalID: 361560895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Morte_00
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 30
+        width: 322
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86df459af8741043b0db1a9a60f789f
+      internalID: -1768591159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardiao_Morte_01
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 37
+        width: 397
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fa68dac5db26b48b49538b871faf11
+      internalID: -1665293568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7872c89d2f8dc1c43a075206c7d7520c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Guardiao_Andar_00: 904614172
+      Guardiao_Andar_01: 1135762518
+      Guardiao_Andar_02: -1563995060
+      Guardiao_Andar_03: -1518227176
+      Guardiao_Andar_04: 1420114554
+      Guardiao_Andar_05: -939126106
+      Guardiao_Ataque_00: 137466818
+      Guardiao_Ataque_01: -563496983
+      Guardiao_Ataque_02: 547080287
+      Guardiao_Ataque_03: 77784151
+      Guardiao_Ataque_04: 1390422927
+      Guardiao_Dano_00: 9906790
+      Guardiao_Dano_01: 361560895
+      Guardiao_Morte_00: -1768591159
+      Guardiao_Morte_01: -1665293568
+      Guardiao_Parado_00: 933789071
+      Guardiao_Parado_01: 258690841
+      Guardiao_Parado_02: 1440583830
+      Guardiao_Parado_03: 1068905767
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

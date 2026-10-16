@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 58a50c34dbc7da8438fe645e8e967934
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -295091464576568304
+    second: inimigoGrande_0
+  - first:
+      213: 8913001560943211398
+    second: inimigoGrande_1
+  - first:
+      213: 9184569071293839453
+    second: inimigoGrande_2
+  - first:
+      213: 3119993731084288519
+    second: inimigoGrande_3
+  - first:
+      213: -4920371205896684312
+    second: inimigoGrande_4
+  - first:
+      213: -1623458788259680243
+    second: inimigoGrande_5
+  - first:
+      213: 7542483401293255246
+    second: inimigoGrande_6
+  - first:
+      213: 5501969117326465259
+    second: inimigoGrande_7
+  - first:
+      213: -8076049792264006169
+    second: inimigoGrande_8
+  - first:
+      213: 1884412261700992551
+    second: inimigoGrande_9
+  - first:
+      213: -7764358165579490460
+    second: inimigoGrande_10
+  - first:
+      213: -783879608040075112
+    second: inimigoGrande_11
+  - first:
+      213: 3605491346700811305
+    second: inimigoGrande_12
+  - first:
+      213: 6831036385338985578
+    second: inimigoGrande_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inimigoGrande_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 965
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014f9ad50ef97ebf0800000000000000
+      internalID: -295091464576568304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 911
+        width: 53
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683b58252b751bb70800000000000000
+      internalID: 8913001560943211398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 751
+        width: 355
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58328d88e4267f70800000000000000
+      internalID: 9184569071293839453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_3
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 741
+        width: 294
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70289ba94c17c4b20800000000000000
+      internalID: 3119993731084288519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_4
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 747
+        width: 293
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecb77d157457bbb0800000000000000
+      internalID: -4920371205896684312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_5
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 743
+        width: 461
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00bb4265d05879e0800000000000000
+      internalID: -1623458788259680243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_6
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 871
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e425d5211b84ca860800000000000000
+      internalID: 7542483401293255246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 846
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8d963f2cbea5c40800000000000000
+      internalID: 5501969117326465259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 593
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e59cbfa08b1cef80800000000000000
+      internalID: -8076049792264006169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 507
+        width: 500
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ef31dc7f6c62a10800000000000000
+      internalID: 1884412261700992551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_10
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 179
+        width: 982
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b1bbfb2657f3490800000000000000
+      internalID: -7764358165579490460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_11
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 15
+        width: 413
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890591056a91f15f0800000000000000
+      internalID: -783879608040075112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_12
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 217
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cb8d0f647490230800000000000000
+      internalID: 3605491346700811305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inimigoGrande_13
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 27
+        width: 417
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c06eb6667bcce50800000000000000
+      internalID: 6831036385338985578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inimigoGrande_0: -295091464576568304
+      inimigoGrande_1: 8913001560943211398
+      inimigoGrande_10: -7764358165579490460
+      inimigoGrande_11: -783879608040075112
+      inimigoGrande_12: 3605491346700811305
+      inimigoGrande_13: 6831036385338985578
+      inimigoGrande_2: 9184569071293839453
+      inimigoGrande_3: 3119993731084288519
+      inimigoGrande_4: -4920371205896684312
+      inimigoGrande_5: -1623458788259680243
+      inimigoGrande_6: 7542483401293255246
+      inimigoGrande_7: 5501969117326465259
+      inimigoGrande_8: -8076049792264006169
+      inimigoGrande_9: 1884412261700992551
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
