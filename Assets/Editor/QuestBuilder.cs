@@ -90,23 +90,7 @@ public static class QuestBuilder
 
     private static void Fundo(Camera camera, Transform jogador, bool noite)
     {
-        Sprite primeiro = CarregarSprite("Assets/Background/BackGround 1.1.png");
-        Sprite segundo = CarregarSprite("Assets/Background/Background 2.1.png");
-        GameObject raiz = new GameObject("Ceu - parallax acompanha o pato");
-        QuestBackground fundo = raiz.AddComponent<QuestBackground>();
-        fundo.alvo = jogador;
-        fundo.cameraAlvo = camera.transform;
-        fundo.fator = noite ? .28f : .18f;
-        fundo.paineis = new Transform[4];
-        for (int indice = 0; indice < 4; indice++)
-        {
-            SpriteRenderer visual = Visual("Ceu " + indice, indice % 2 == 0 ? primeiro : segundo, Vector2.zero, -20);
-            visual.transform.SetParent(raiz.transform);
-            visual.transform.localScale = Vector3.one * 2.1f;
-            visual.transform.position = new Vector3(indice * primeiro.bounds.size.x * 2.1f, .3f, 5f);
-            visual.color = noite ? new Color(.57f, .68f, .92f) : Color.white;
-            fundo.paineis[indice] = visual.transform;
-        }
+        QuestBackgroundSetup.Criar(camera, jogador, noite ? 2 : 1);
     }
 
     private static SpriteRenderer Visual(string nome, Sprite sprite, Vector2 posicao, int ordem)

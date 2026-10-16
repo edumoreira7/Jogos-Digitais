@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 8c00bd01267c9c149b73ae64be0a1118
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3187865831399637547
+    second: Background2.1novo_0
+  - first:
+      213: 127052310499002867
+    second: Background2.1novo_1
+  - first:
+      213: -1048903112714249048
+    second: Background2.1novo_2
+  - first:
+      213: 5403415578844925659
+    second: Background2.1novo_3
+  - first:
+      213: 5292591383643031852
+    second: Background2.1novo_4
+  - first:
+      213: 4839391522163058305
+    second: Background2.1novo_5
+  - first:
+      213: 1808528176294374302
+    second: Background2.1novo_6
+  - first:
+      213: -3183945087299768619
+    second: Background2.1novo_7
+  - first:
+      213: 7592017626685125366
+    second: Background2.1novo_8
+  - first:
+      213: -1190224645320116154
+    second: Background2.1novo_9
+  - first:
+      213: 8220529514277043648
+    second: Background2.1novo_10
+  - first:
+      213: -8925154779063770508
+    second: Background2.1novo_11
+  - first:
+      213: -7243230059595305903
+    second: Background2.1novo_12
+  - first:
+      213: -6289850366331936225
+    second: Background2.1novo_13
+  - first:
+      213: -3911359151575377592
+    second: Background2.1novo_14
+  - first:
+      213: 4967356117608627777
+    second: Background2.1novo_15
+  - first:
+      213: -5412686175600246961
+    second: Background2.1novo_16
+  - first:
+      213: 3401984248123878277
+    second: Background2.1novo_17
+  - first:
+      213: -4918048475420229729
+    second: Background2.1novo_18
+  - first:
+      213: -4007039235449797895
+    second: Background2.1novo_19
+  - first:
+      213: -7567778909611589145
+    second: Background2.1novo_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background2.1novo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1774
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b224e2865139d3c20800000000000000
+      internalID: 3187865831399637547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_1
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 840
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f98f2b376163c100800000000000000
+      internalID: 127052310499002867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 779
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac9dd22d2c8171f0800000000000000
+      internalID: -1048903112714249048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 778
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde0dd627d9ccfa40800000000000000
+      internalID: 5403415578844925659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 779
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29065372df037940800000000000000
+      internalID: 5292591383643031852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_5
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 759
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186e09ff2f8f82340800000000000000
+      internalID: 4839391522163058305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 739
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9baf4a5bce291910800000000000000
+      internalID: 1808528176294374302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_7
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 739
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dea527ffca50d3d0800000000000000
+      internalID: -3183945087299768619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 28
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f23217aec34c5960800000000000000
+      internalID: 7592017626685125366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_9
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 39
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64877ccbdf87b7fe0800000000000000
+      internalID: -1190224645320116154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_10
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 35
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdf81cf900351270800000000000000
+      internalID: 8220529514277043648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_11
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 47
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4722684140b732480800000000000000
+      internalID: -8925154779063770508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_12
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 0
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ce36713a0ea7b90800000000000000
+      internalID: -7243230059595305903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_13
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 23
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12ac68ba66f5b8a0800000000000000
+      internalID: -6289850366331936225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_14
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 22
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849506d239f08b9c0800000000000000
+      internalID: -3911359151575377592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_15
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 15
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14efcee12189fe440800000000000000
+      internalID: 4967356117608627777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_16
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 5
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ffda6d99642e4b0800000000000000
+      internalID: -5412686175600246961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_17
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 27
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58be5e036a6463f20800000000000000
+      internalID: 3401984248123878277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_18
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 17
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ffc62f7f49fbbb0800000000000000
+      internalID: -4918048475420229729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_19
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 15
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f246f9ab032468c0800000000000000
+      internalID: -4007039235449797895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2.1novo_20
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 15
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e188e17d29d9f690800000000000000
+      internalID: -7567778909611589145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Background2.1novo_0: 3187865831399637547
+      Background2.1novo_1: 127052310499002867
+      Background2.1novo_10: 8220529514277043648
+      Background2.1novo_11: -8925154779063770508
+      Background2.1novo_12: -7243230059595305903
+      Background2.1novo_13: -6289850366331936225
+      Background2.1novo_14: -3911359151575377592
+      Background2.1novo_15: 4967356117608627777
+      Background2.1novo_16: -5412686175600246961
+      Background2.1novo_17: 3401984248123878277
+      Background2.1novo_18: -4918048475420229729
+      Background2.1novo_19: -4007039235449797895
+      Background2.1novo_2: -1048903112714249048
+      Background2.1novo_20: -7567778909611589145
+      Background2.1novo_3: 5403415578844925659
+      Background2.1novo_4: 5292591383643031852
+      Background2.1novo_5: 4839391522163058305
+      Background2.1novo_6: 1808528176294374302
+      Background2.1novo_7: -3183945087299768619
+      Background2.1novo_8: 7592017626685125366
+      Background2.1novo_9: -1190224645320116154
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

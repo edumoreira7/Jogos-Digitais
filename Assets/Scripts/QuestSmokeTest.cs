@@ -30,6 +30,18 @@ public class QuestSmokeTest : MonoBehaviour
         Camera cameraTeste = Camera.main;
         QuestCamera seguirCamera = cameraTeste.GetComponent<QuestCamera>();
         QuestBackground fundoTeste = FindAnyObjectByType<QuestBackground>();
+        QuestBackground[] camadasTeste = FindObjectsByType<QuestBackground>();
+        Exigir(camadasTeste.Length == 3, "Tres camadas de fundo na fase");
+        foreach (QuestBackground camada in camadasTeste)
+        {
+            Exigir(camada.paineis.Length == 4, "Quatro paineis por camada");
+            for (int indice = 0; indice < camada.paineis.Length; indice++)
+            {
+                SpriteRenderer painel = camada.paineis[indice].GetComponent<SpriteRenderer>();
+                Exigir(painel.sprite == camada.paineis[0].GetComponent<SpriteRenderer>().sprite
+                    && painel.flipX == (indice % 2 == 1), "Repeticao espelhada sem trocar de imagem");
+            }
+        }
         Vector3 cameraOriginal = cameraTeste.transform.position;
         Rigidbody2D corpoTeste = jogador.GetComponent<Rigidbody2D>();
         Vector2 jogadorOriginal = corpoTeste.position;
@@ -133,7 +145,8 @@ public class QuestSmokeTest : MonoBehaviour
         Camera cameraCenario = Camera.main;
         cameraCenario.GetComponent<QuestCamera>().enabled = false;
         cameraCenario.transform.position = new Vector3(29f, .3f, -10f);
-        FindAnyObjectByType<QuestBackground>().SendMessage("LateUpdate");
+        foreach (QuestBackground camada in FindObjectsByType<QuestBackground>())
+            camada.SendMessage("LateUpdate");
         Capturar("Inimigos-e-cenario.png");
         cameraCenario.GetComponent<QuestCamera>().enabled = true;
         foreach (QuestEnemyShot tiro in FindObjectsByType<QuestEnemyShot>(FindObjectsSortMode.None))

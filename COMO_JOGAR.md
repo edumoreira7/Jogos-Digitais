@@ -26,6 +26,8 @@ Os recortes ficam em `Assets/ElementalQuest/Recortes`. Expanda Cenario, Guaxinim
 
 ## Edicao
 
+Cada fase usa tres camadas dos fundos novos: ceu, montanhas e floresta na primeira; ceu de entardecer, montanhas e ruinas na segunda. As camadas mais distantes se deslocam mais devagar. As copias alternam espelhamento horizontal para encaixar as bordas da mesma imagem. O menu `Elemental Quest > Atualizar apenas os fundos` troca somente os fundos de Fase1 e Fase2, mantendo plataformas, itens e inimigos nas posicoes existentes. Os assets usados ficam em `Assets/ElementalQuest/Fundos`.
+
 O guaxinim usa um multiplicador de velocidade de 1,7 (cerca de 70% mais rapido). O sapo guardiao detecta o jogador a ate 8 unidades e persegue a 2,2 unidades por segundo quando ambos estao no mesmo trecho continuo de chao. Ele respeita as bordas, para para atacar e retorna gradualmente a sua patrulha quando perde o alcance. Esses valores ficam no componente QuestEnemy. O guardiao nao pula abismos nem sobe em plataformas separadas.
 
 As fases contem objetos editaveis na Hierarchy: ilhas, plataformas, cristais, inimigos e portal. Ao adicionar ou remover cristais, atualize `Total Itens` no objeto `Regras, vidas e pontuacao`. Os limites de patrulha, o tipo e as vidas de cada inimigo ficam no componente `QuestEnemy`.
